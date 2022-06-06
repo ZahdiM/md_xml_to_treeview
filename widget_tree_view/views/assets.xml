@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2018 Modoolar <info@modoolar.com>
+  License LGPLv3.0 or later (https://www.gnu.org/licenses/lgpl-3.0.en.html).
+-->
+<odoo>
+    <template id="assets_backend" name="web_clipboard assets" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" type="text/css" href="/widget_tree_view/static/src/js/jstree/themes/default/style.min.css"/>
+            <script type="text/javascript" src="/widget_tree_view/static/src/js/jstree/jstree.min.js"></script>
+
+            <!--<script type="text/javascript" src="/widget_tree_view/static/src/js/set_treeview.js"/>-->
+            <script type="text/javascript" src="/widget_tree_view/static/src/js/tree_viewer.js"/>
+        </xpath>
+    </template>
+</odoo>
