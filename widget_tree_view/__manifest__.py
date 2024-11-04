@@ -34,6 +34,4 @@
     # Technical
     'installable': True,
     'auto_install': False,
-    'price': 39.00,
-    'currency': 'USD',
 }
